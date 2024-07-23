@@ -1,0 +1,52 @@
+{
+  "name": "react-hook-form-zod-mui",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "server": "nodemon server.ts"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@hookform/devtools": "^4.3.1",
+    "@hookform/resolvers": "^3.9.0",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@mui/x-date-pickers": "^7.11.0",
+    "@mui/x-date-pickers-pro": "^7.11.0",
+    "@tanstack/react-query": "^5.51.11",
+    "@types/express": "^4.17.21",
+    "@types/json-server": "^0.14.7",
+    "@types/node": "^20.14.11",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "date-fns": "^3.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "json-server": "^0.17.4",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/json-server": "^0.14.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  }
+}
